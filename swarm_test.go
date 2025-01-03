@@ -1,4 +1,4 @@
-package swarmgo
+package swarm
 
 import (
 	"bytes"
@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/prathyushnallamothu/swarmgo/llm"
+	"github.com/agentiq-labs/swarm/llm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

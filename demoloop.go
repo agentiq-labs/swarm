@@ -1,4 +1,4 @@
-package swarmgo
+package swarm
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/prathyushnallamothu/swarmgo/llm"
+	"github.com/agentiq-labs/swarm/llm"
 )
 
 func RunDemoLoop(client *Swarm, agent *Agent) {

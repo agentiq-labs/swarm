@@ -1,11 +1,11 @@
-package swarmgo
+package swarm
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/prathyushnallamothu/swarmgo/llm"
+	"github.com/agentiq-labs/swarm/llm"
 )
 
 // StreamHandler represents a handler for streaming responses

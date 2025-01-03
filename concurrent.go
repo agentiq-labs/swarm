@@ -1,10 +1,10 @@
-package swarmgo
+package swarm
 
 import (
 	"context"
 	"sync"
 
-	"github.com/prathyushnallamothu/swarmgo/llm"
+	"github.com/agentiq-labs/swarm/llm"
 )
 
 // ConcurrentResult represents the result from a single agent's execution
@@ -25,7 +25,6 @@ func NewConcurrentSwarm(apiKey string, provider llm.LLMProvider) *ConcurrentSwar
 		Swarm: NewSwarm(apiKey, provider),
 	}
 }
-
 
 // AgentConfig holds the configuration for a single agent execution
 type AgentConfig struct {

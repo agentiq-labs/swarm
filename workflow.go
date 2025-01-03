@@ -1,4 +1,4 @@
-package swarmgo
+package swarm
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prathyushnallamothu/swarmgo/llm"
+	"github.com/agentiq-labs/swarm/llm"
 )
 
 // WorkflowType defines the type of agent interaction pattern

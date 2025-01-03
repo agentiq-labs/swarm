@@ -1,4 +1,4 @@
-package swarmgo
+package swarm
 
 import (
 	"fmt"
